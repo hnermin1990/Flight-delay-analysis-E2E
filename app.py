@@ -1267,7 +1267,7 @@ if st.session_state.get("res_active", False):
                     100
                 )
 
-                st.markdown(
+                st.html(
                     f"""
                     <div style="
                         background:#0D1E37;
@@ -1318,8 +1318,7 @@ if st.session_state.get("res_active", False):
                             "></div>
                         </div>
                     </div>
-                    """,
-                    unsafe_allow_html=True
+                    """
                 )
 
             st.caption(
